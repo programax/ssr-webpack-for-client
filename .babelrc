@@ -1,0 +1,14 @@
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@client/components": "./dist/static/components.js"
+        }
+      }
+    ],
+    "@babel/plugin-transform-runtime"
+  ]
+}
